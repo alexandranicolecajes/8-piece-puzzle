@@ -6,7 +6,6 @@ from tkinter import messagebox
 import time
 import math
 
-
 def main():
     grid = puzzle()
     root = Tk()
@@ -127,15 +126,8 @@ def bfs(grid, btns, root):
             [4, 5, 6],
             [7, 8, 0]]
     start_time = time.time()
-
-    # Each node in the queue consists of 3 elements
-    # 0: Current State
-    # 1: Parent State
     queue = [[grid.vals, None]]
 
-    # Each node in the explored list consists of 2 elements
-    # 0: State
-    # 1: Parent
     explored = {}
 
     while len(queue) != 0:
