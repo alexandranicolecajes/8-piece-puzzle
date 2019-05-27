@@ -1,7 +1,6 @@
-BUILD
-1. Download Main.py from Canvas
-2. Open any application that can interpret Python
-3. Configure application to run any version greater than Python 3.0
+READ ME
+1. Open any application that can interpret Python
+2. Configure application to run any version greater than Python 3.0
 3. Run Main.py
 
 GUI
